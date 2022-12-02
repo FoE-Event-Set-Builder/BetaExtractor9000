@@ -1,6 +1,16 @@
 # BetaExtractor9000
 Scripts to extract and compare new images and other texts from beta cache files. If you have git download with that, if not you can download a zip file ("Code" > "Download ZIP") and extract that.
 
+# How To Download Cache Data
+
+* Log in to zz1 on google chrome (chrome browser required)
+* When in-game, open dev tools (ctrl+shift+i)
+* Go to sources, then open foezz.innogamescdn.com > cache > ForgeHX-____.js (click on it). It might be under "zz1.forgeofempires.com" instead. 
+* In the bottom left of the window you will find a "{ }" symbol. This is a "pretty print" function and makes the code more readable. It's required to get the correct formatting for my scripts :P
+* Select all the text in the pretty printed code (ctrl+a) and copy it
+* In the same folder as run.exe/run.py/etc, create a new .txt file and paste what you copied to it (don't forget to save)
+* You're now good to go (after you've updated config.ini)
+
 # How To Use (Executable):
 
 * Update "config.ini" (open in any text editor) with newest data and your options
